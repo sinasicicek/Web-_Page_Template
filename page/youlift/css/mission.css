@@ -1,0 +1,65 @@
+.our-mission{
+    padding: 5rem;
+}
+
+.our-h1{
+    font-size: 100px;
+    font-weight: 600;
+    padding-left: 5rem;
+    display: inline-block;
+}
+.our-h1-img{
+    background-image: url("../assests/icon/icons8-users-64.png");
+    background-repeat: no-repeat;
+   background-size:contain;
+   background-clip: border-box;
+   backdrop-filter: blur(4px);
+}
+.our-p{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: aquamarine;
+}
+.our-txt
+{
+    font-size: 24px;
+    text-align: justify;
+    padding: 1rem;
+}
+.our-join
+{
+    width: 30px !important;
+    height: 30px !important;
+
+   
+}
+.our-join:hover{
+    animation: pulse 1s infinite linear;
+}
+.join-txt{font-size: 24px;}
+    @media (max-width:375px) 
+    {
+        .our-h1{font-size: 40px;}
+        .our-mission{padding: 5px !important; margin-top: 2rem;}
+        .our-p{width: 5px;height: 5px;}
+        .our-txt{font-size: 16px;}
+        .our-btn{justify-content: center;}
+    }
+
+    @media (max-width:425px) 
+    {
+        .our-h1{font-size: 40px;}
+        .our-mission{padding: 5px !important; margin-top: 2rem;}
+        .our-p{width: 5px;height: 5px;}
+        .our-txt{font-size: 16px;}
+        .our-btn{justify-content: center;}
+    }
+    @media (max-width:768px) 
+    {
+        .our-h1{font-size: 40px;}
+        .our-mission{padding: 5px !important; margin-top: 2rem;}
+        .our-p{width: 5px;height: 5px;}
+        .our-txt{font-size: 16px;}
+        .our-btn{justify-content: center;}
+    }

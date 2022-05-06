@@ -1,0 +1,62 @@
+.footer-img{
+    background-color: black;
+    height: 30rem;
+    width: 100%;
+}
+
+.footer-mtop{margin-top: 5rem;}
+.footer-p5{padding-bottom: 5rem;}
+.foo-img{
+    background-image: url("../assests/end.jpg");
+    background-repeat: no-repeat;
+    background-position: cover;
+    width: 100%;
+    height: 100%;
+}
+.footer-h1{
+    color: white;
+    font-size: 60px !important;
+}
+.footer-h1 > span { color:#4ae191;}
+.footer-p{
+    color: white;
+}
+.footer-btn{
+    background-color: white !important;
+    color: black !important;
+    width: 150px !important;
+    font-weight: 800;
+    border: 0px !important;
+}
+.foo-img-pst{
+    position: relative;
+    left: 28rem;
+    top: 10rem;
+}
+@media (max-width:375px) 
+{
+    .foo-img-pst{
+    position: relative;
+    left: .8rem;
+    top: 1rem;
+    }
+    
+}
+@media (max-width:425px) 
+{
+    .foo-img-pst{
+    position: relative;
+    left: .8rem;
+    top: 1rem;
+    }
+    
+}
+@media (max-width:768px) 
+{
+    .foo-img-pst{
+    position: relative;
+    left: .8rem;
+    top: 1rem;
+    }
+    
+}

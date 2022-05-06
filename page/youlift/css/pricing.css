@@ -1,0 +1,80 @@
+.item-pricing{
+    width: 20rem;
+    height: 32rem;
+    background-color: #f0f0f2;
+    margin: 1rem;
+    position: relative;
+}
+
+.item-pricing:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.item-pricing:hover > div > .pricing-btn-join{
+    background-color:white;
+color: black;
+border: 0px;
+animation: pulse 1s infinite linear;
+}
+
+
+.pricing-btn{
+    background-color: black;
+    color: white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border: 0px;}
+.pricing-txt-number{font-size: 50px;font-weight: 800;margin: 0px;display: inline;}
+.pricing-txt-imge{font-size: 25px;font-weight: 600;margin: 0px;display: inline;}
+.pricing-txt-month{font-size: 20px;color:#9b9ba2 ;margin: 0px;display: inline;}
+
+
+.liste{
+
+    font-size: 16px;
+}
+.liste-img{border-radius: 50%;}
+
+.pricing-btn-join{
+    width: 9rem;
+    padding: .8rem;
+    border: 2px solid black;
+    color: black;
+    background-color: transparent;
+    position: relative;
+   
+}
+.div-pri{margin-top: 4rem;}
+.div-elite-btn{margin-top: 3rem;}
+
+@media (max-width:375px)
+{
+    .pricing{
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing-container{
+        flex-direction: column !important;
+    }
+}
+@media (max-width:425px)
+{
+    .pricing{
+        display: flex;
+        flex-direction: column;
+    }
+    .pricing-container{
+        flex-direction: column !important;
+    }
+}
+@media (max-width:768px)
+{
+    .item-pricing{height: 33rem;}
+    .pricing-lis{
+        
+      
+    }
+}

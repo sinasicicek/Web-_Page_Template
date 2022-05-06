@@ -1,0 +1,133 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+section {
+  padding: 1rem;
+}
+
+.fu {
+  width: 100%;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  background-color: #332e2a;
+}
+
+.futures-log {
+  width: 100%;
+  background-image: url("../assest/main.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.futures-log h1 {
+  font-size: 10rem;
+  position: absolute;
+  bottom: 1%;
+  color: white;
+}
+
+.futures-txt p {
+  text-align: justify;
+  font-size: 30px;
+  padding: 8rem;
+  color: white;
+}
+
+.futures-txt button {
+  padding: 1rem;
+  margin-top: 2rem;
+  border: 1px solid white;
+  background-color: transparent;
+  width: 150px;
+  color: white;
+  cursor: pointer;
+}
+
+.futures-txt button:hover {
+  background-color: white;
+  color: #332e2a;
+  -webkit-transition: 2s;
+  transition: 2s;
+  border-radius: 10px;
+}
+
+.d-flex-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+/*RESPONSİVE*/
+@media (max-width: 376px) {
+  .futures-txt p {
+    padding: 0px;
+  }
+  .futures {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .futures-log {
+    height: 400px;
+  }
+}
+
+@media (max-width: 425px) {
+  .fu {
+    padding: 0px;
+  }
+  .futures-txt p {
+    padding: 20px;
+    font-size: 18px;
+  }
+  .futures {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .futures-log {
+    height: 400px;
+  }
+}
+
+@media (max-width: 768px) {
+  .futures {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .futures-log {
+    height: 400px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .futures-txt p {
+    text-align: justify;
+    font-size: 24px;
+    padding: 3rem;
+  }
+  .futures-log {
+    height: 400px;
+  }
+  .futures-log h1 {
+    font-size: 5rem;
+    position: absolute;
+    bottom: 10%;
+    left: -30%;
+    color: white;
+  }
+}
+/*# sourceMappingURL=futures.css.map */

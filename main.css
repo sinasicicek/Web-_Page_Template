@@ -1,0 +1,24 @@
+.frame{width: 100%;
+    display:flex;
+   flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.frame_div{
+    opacity: .3;
+    
+    padding: 1rem;
+   
+}
+.frame_div:hover{opacity: 1;}
+.frame_div:hover > a> img{ 
+    border: 2px solid black;
+transform:scale(1.3);
+transition: 1.5s ease-in-out;
+}
+img{
+    width: 80%;
+    height: 20rem;
+    padding: 1rem;
+   
+}

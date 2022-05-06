@@ -1,0 +1,33 @@
+.logn{
+    width: 100%;
+    height: 376px;
+    background-color: #ef7a2d;
+
+}
+.login{
+    color: white;
+   h1{
+       font-size: 60px;
+   }
+
+}
+
+.joın_btn{
+    padding: 1rem;
+    border: 0px;
+    width: 150px;
+    margin-top: 1rem;
+    color: #ef7a2d;
+    font-weight: 800;
+}
+
+@media (max-width:376) 
+{
+    .login{
+        margin-top:180px;
+        position: relative;
+        h1{
+            font-size: 30px;
+        }
+    }
+}

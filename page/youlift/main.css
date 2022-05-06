@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+li > a{
+    color: black !important;
+    font-weight: 600;
+}
+.nav-item:hover {transform: scale(1.2);}
+.conta{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   max-width: 1200px;
+
+}
+
+.nav-btn-green{
+    padding: 1rem;
+    background-color: #4ae190;
+    color: white;
+    width: 120px;
+    
+}
+.nav-btn-hover:hover{
+    transform: scale(1.2);
+   
+    color: red;
+}
+.mtop0{margin-top: .5rem;}
+.mtop1{margin-top: 1rem;}
+.mtop2{margin-top: 2rem;}
+
+
+
+.mleft0{margin-left: .5rem;}
+.mleft1{margin-left: 1rem;}
+.mleft2{margin-left: 2rem;}
+
+
+.mright0{margin-right: .5rem;}
+.mright1{margin-right: 1rem;}
+.mright2{margin-right: 2rem;}
+
+.gizli{display: none;}
+
+.menu-img-close{
+    background: url("");
+}
+
+@media (max-width:375px) 
+{
+    .nav-ul{
+        display: none;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    .nav-ul-goster{display: inline;}
+    .nav-btn-goster{display: inline !important;}
+    .gizli{display: inline;}
+    .conta{ 
+        max-width: 320px;
+        flex-direction: column;
+    }    
+    .gizli >img{
+        position:absolute;
+        right: 30px;
+        top: 30px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+    .logo{
+        position: absolute;
+        left: 30px;
+    }
+
+    .nav-btn{
+        margin-top: 1rem;
+        display: none ;
+    }
+    .nav-btn-log-in{
+    padding: 1rem;
+    background-color: #9b2e2e;
+    color: white;
+    width: 120px;
+    }
+}
+
+
+@media (max-width:425px) 
+{
+    .nav-ul{
+        display: none;
+        flex-direction: column;
+        margin-top: 2rem;
+        margin-left: 3rem;
+    }
+    .nav-ul-goster{display: inline;}
+    .nav-btn-goster{display: inline !important;}
+    .gizli{display: inline;}
+    .conta{ 
+        max-width: 320px;
+        flex-direction: column;
+    }    
+    .gizli >img{
+        position:absolute;
+        right: 30px;
+        top: 30px;
+        width: 24px;
+        height: 24px;
+        cursor: pointer;
+    }
+    .logo{
+        position: absolute;
+        left: 30px;
+    }
+
+    .nav-btn{
+        margin-top: 1rem;
+        display: none ;
+    }
+    .nav-btn-log-in{
+    padding: 1rem;
+    background-color: #9b2e2e;
+    color: white;
+    width: 120px;
+    }
+}
+
+@media (max-width:768px) 
+{
+  
+ .nav{font-size: 12px;}
+}

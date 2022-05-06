@@ -1,0 +1,86 @@
+
+#futures{
+    background-image: url("../assests/adventure_boardwalk_bridge_daylight_environment_forest_grass_guidance_idyllic_lake_landscape_mountain_mountains_nature_outdoors_park_pathway_river_scenic_sky_summer_travel_trees_woods_5472x3648.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 644px;
+    width: 100%;
+
+}
+.one_page{
+    height: 100%;
+    width: 100%;
+    backdrop-filter: brightness(30%);
+    display: flex;
+    justify-content: center;
+}
+.one_page_txt{
+    color: aliceblue;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+h1 { 
+    text-align: center;
+}
+.one_page_btn{
+    margin-top: 10px;
+}
+.one_page_btn_btn{
+    padding: 1rem;
+    border: 0px solid transparent;
+    width: 180px;
+    width: 55;
+}
+.bg-btn-wood{
+    background-color: #AB7442 !important;
+    color: white;
+}
+
+@media (max-width:576px) 
+{
+    #futures{
+        background-image: url("../assests/adventure_boardwalk_bridge_daylight_environment_forest_grass_guidance_idyllic_lake_landscape_mountain_mountains_nature_outdoors_park_pathway_river_scenic_sky_summer_travel_trees_woods_5472x3648.jpg");
+        background-position:top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:100%;
+        width: 100%;
+    }
+    .one_page_txt{
+        color: #AB7442;
+        height: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        backdrop-filter: blur(3px);
+    }
+    .one_page_btn{
+        margin-top: 10px;
+    }
+    .one_page_btn_btn{
+        padding: .7rem;
+        border: 0px solid transparent;
+        width: 120px;
+        width: 55;
+        border-radius: 8px;
+    }
+    .bg-btn-wood{
+        background-color: #AB7442 !important;
+        color: white;
+    }
+    .bg-btn-wood-white{
+        border: 2px solid black;
+
+    }
+    .h1{ font-size: 16px;
+    
+    }
+    .one_page_txt_p{
+        text-align: center;
+        margin-top:10px;
+    }
+}
